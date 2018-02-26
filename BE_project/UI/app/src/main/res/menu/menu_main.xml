@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+    <item
+        android:id="@+id/login"
+        android:orderInCategory="2"
+        android:onClick="onOptionLogin"
+        android:title="Login"/>
+    <item
+        android:id="@+id/event"
+        android:orderInCategory="1"
+        android:onClick="onOptionEvent"
+        android:title="Add event"/>
+    <item
+        android:id="@+id/group"
+        android:orderInCategory="2"
+        android:onClick="onOptionGroup"
+        android:title="Create Group"/>
+
+</menu>

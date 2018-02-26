@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+
+xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+android:orientation="vertical"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:paddingBottom="@dimen/activity_vertical_margin" tools:context="com.journaldev.actionbar.Login">
+
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="80dp"
+    android:text="welcome to smc"/>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="please use one account for safety purposes"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingTop="80dp" />
+
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="textEmailAddress"
+    android:hint="email"
+    android:id="@+id/username" />
+
+
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="password"
+    android:inputType="textPassword"
+    android:id="@+id/password" />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="click"
+    android:id="@+id/button" />
+
+</LinearLayout>
